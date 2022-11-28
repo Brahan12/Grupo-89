@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+/* Css Nav */
+
+.container-fluid{
+    font-family: 'Comic Neue', cursive !important;
+}
+
+.styleFont{
+    font-size: 1.4em !important;  
+}
+
+.styleFont:hover{
+    color: #ffc107 !important;
+}
+
+.dropdown-menu{
+    border: 2px solid #fff !important;
+}
+
+.dropdown-item:hover{
+    background-color: #ffc1077e !important;
+    color: black !important;
+}
+
+.dropdown-item:active{
+    background-color: #ffc107 !important;
+    color: #fff !important;
+}
+
+.styleBoton:hover{
+    background-color: #fff !important;
+    border: 1px solid #ffc107 !important;
+}
+
+/* Media query */
+
+@media (max-width: 767px) {
+    .navbar-toggler, .dropdown-menu{
+        border: 2px solid #ffc107 !important;
+    }
+}
